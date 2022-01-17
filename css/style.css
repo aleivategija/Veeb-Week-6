@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Luxurious Roman', cursive;
+    line-height: 2;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url(../img/img1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.intro-image__text a {
+    background-color: #4e2c1b42;
+    border: 2px solid #020101;
+    color: #7d4c30;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    
+
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #7d4c30;
+    color: #000;
+    height: 300px;
+    margin-top: -5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0 15rem;
+    clip-path: polygon(49% 9%, 100% 0, 100% 43%, 100% 100%, 68% 100%, 30% 100%, 0 100%, 0% 43%, 0 0);
+
+
+}
+
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/img2.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #522b084b;
+    border: 2px solid #352512;
+    color: #bb9980;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color:#522a08;
+    color: #c7a784;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 0 15rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/img3.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text {
+    text-align: center;
+}
+
+.btn {
+    background-color: rgba(82, 43, 8, 0.411);
+    border: 2px solid #2e2011;
+    color: #e6d9cb;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    height: 200px;
+    text-align: center;
+    color: #654a2b;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+
+}
+
+.footer ul li a {
+    color: rgb(109, 28, 28);
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    color: burlywood;
+    transform: scale(1.2);
+}
